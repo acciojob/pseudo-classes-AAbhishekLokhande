@@ -12,10 +12,10 @@
     margin-top: -5px;
 }
 .class:last-child{
-    color: white;
+    color: red;
 }
 .class:nth-child(2){
-    color: red;
+    color: rgb(0, 0, 0)
 }
 
 /* section2 */
