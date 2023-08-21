@@ -4,19 +4,20 @@
 }
 .class{
     list-style: none;
-    margin-left: -40px;
+
 }
 .class:first-child{
     background-color: black;
     color: white;
-    margin-top: -15px;
+    margin-top: -5px;
+}
+.class:last-child{
+    color: white;
 }
 .class:nth-child(2){
     color: red;
 }
-.class:last-child{
-    color: red;
-}
+
 /* section2 */
 .list{
     background-color: gray;
