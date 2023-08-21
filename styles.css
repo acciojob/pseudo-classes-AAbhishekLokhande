@@ -1,1 +1,38 @@
 /*  your css code here. If applicable */
+:root{
+    background-color:rgb(135, 206, 235);
+}
+.class{
+    list-style: none;
+    margin-left: -40px;
+}
+.class:first-child{
+    background-color: black;
+    color: white;
+    margin-top: -15px;
+}
+.class:nth-child(2){
+    color: red;
+}
+.class:last-child{
+    color: red;
+}
+/* section2 */
+.list{
+    background-color: gray;
+    width: 50%;
+    padding: 10px;
+}
+
+.list:nth-child(odd){
+    background-color: white;
+}
+.list:first-child{
+    font-size: 22px;
+}
+.list:last-child{
+    font-size: 22px;
+}
+.list:nth-child(3){
+    background-color: pink;
+}
